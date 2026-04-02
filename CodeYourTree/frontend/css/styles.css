@@ -1,0 +1,53 @@
+/* * {
+    outline: 1px solid rgba(255, 0, 0, 0.3) !important;
+} */
+
+body {
+    background-color: var(--bg-dark);
+    color: var(--text-main);
+    font-family: 'Inter', sans-serif;
+}
+
+.btn-success {
+    background-color: var(--brand-green) !important;
+    border-color: var(--brand-green) !important;
+    color: var(--bg-dark) !important;
+    font-weight: 600;
+}
+
+.custom-card {
+    background-color: var(--card-bg) !important;
+    color: var(--text-main) !important;
+    border-radius: 8px;
+}
+
+.heatmap-container {
+    margin-top: 1.5rem;
+    border-top: 1px solid rgba(235, 244, 221, 0.2);
+}
+
+.heatmap-title {
+    color: var(--brand-green);
+    font-size: 0.9rem;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+
+.heatmap-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 4px;
+}
+
+.contribution-box {
+    width: 16px;
+    height: 16px;
+    background-color: var(--bg-dark);
+    transition: background-color 0.3s ease;
+    border-radius: 3px;
+}
+
+.contribution-box.active {
+    background-color: var(--brand-green);
+    box-shadow: 0 0 6px rgba(144, 171, 139, 0.4);
+}
